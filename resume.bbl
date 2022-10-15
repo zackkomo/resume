@@ -1,0 +1,57 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ydnt/global//global/global}
+    \entry{starlinkStructure}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c4f0e81ffba7c630e7ba7cf63332946a}{%
+           family={T.\bibnamedelimi E.\bibnamedelimi Humphreys},
+           familyi={T\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Z.\bibnamedelimi M.\bibnamedelimi Komodromos},
+           giveni={Z\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0,
+           suffix={P.\bibnamedelimi A.\bibnamedelimi Iannucci},
+           suffixi={P\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim I\bibinitperiod},
+           suffixun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{c4f0e81ffba7c630e7ba7cf63332946a}
+      \strng{fullhash}{c4f0e81ffba7c630e7ba7cf63332946a}
+      \strng{bibnamehash}{c4f0e81ffba7c630e7ba7cf63332946a}
+      \strng{authorbibnamehash}{c4f0e81ffba7c630e7ba7cf63332946a}
+      \strng{authornamehash}{c4f0e81ffba7c630e7ba7cf63332946a}
+      \strng{authorfullhash}{c4f0e81ffba7c630e7ba7cf63332946a}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Aerospace and Electronic Systems}
+      \field{title}{Signal Structure of the Starlink Ku-Band Downlink}
+      \field{year}{Under Review}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

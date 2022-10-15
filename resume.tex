@@ -1,0 +1,150 @@
+%%%%%%%%%%%%%%%%%
+% Based on the
+% Cv created by BusinessInsider at http://www.businessinsider.my/a-sample-resume-for-marissa-mayer-2016-7/?r=US&IR=T
+%
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+\documentclass[12pt,a4paper,ragged2e]{altacv}
+
+% Change the page layout if you need to
+\geometry{left=2cm,right=2cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.3cm}
+\emergencystretch=1em
+
+\usepackage{multicol}
+\usepackage{parcolumns}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{000000}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{2E2E2E}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% sample.bib contains your publications
+\addbibresource{references.bib}
+
+\begin{document}
+\name{Zacharias Komodromos}
+\tagline{}
+% \tagline{Electrical Engineer}
+\personalinfo{%
+    \email{zackkomo@utexas.edu}
+    \phone{515-441-6857}
+    \mailaddress{404 E. 30th St, Apmt. 304, Austin, Texas 78705}
+}
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+\AtBeginEnvironment{itemize}{\small}
+
+% \twocolumn[{% inside this optional argument goes one-column text
+%             %% Make the header extend all the way to the right, if you want.
+
+%         }]
+
+\begin{fullwidth}
+    \makecvheader
+\end{fullwidth}
+
+\begin{parcolumns}[colwidths={1=0.5\textwidth}]{2}
+    \colchunk{ \cvsection{Experience}
+
+        \cvevent{Graduate Research Assistant}{University of Texas at Austin}{Fall 2021 -- Present}{Austin, Texas}
+        \begin{itemize}
+            \item Member of WNCG Radionavigation Laboratory run by Dr. Todd Humphreys.
+            \item Research in game-theory for Pursuit-Evasion scenario
+            \item Research in opportunistic PNT from Starlink Satellites
+            \item Teaching assistant for Aerial Robotics class ASE 479W
+
+        \end{itemize}
+
+        \divider
+
+        \cvevent{Design Engineer Intern}{Garmin}{Summer 2021}{Olathe, Kansas}
+        \begin{itemize}
+            \item Used Cadstar for schematic revision and PCB design
+            \item Designed PCB for new feature testing (capacitive touch features)
+            \item Designed PCB for High-speed (USB 3.2) testing
+
+        \end{itemize}
+
+        \divider
+
+        \cvevent{Teaching Assistant/Tutor}{Iowa State University}{Fall 2019 -- Spring 2021}{Ames, Iowa}
+        \begin{itemize}
+            \item Teaching assistant for EE330 Integrated Circuits during Fall 2020 and Spring 2021,
+                  under Dr. Randall L. Geiger and Dr. Degang Chen.
+            \item Led lab sections, constructed and graded homework and labs
+            \item Tutor for Academic Success Center for EE201 and EE230 Circuit analysis classes
+        \end{itemize}
+
+        \divider
+
+        \cvevent{Electrical Engineering Intern}{Cemen Tech Inc}{Summer 2020}{Indianola, Iowa}
+        \begin{itemize}
+            \item Updated schematics in CAD and assemblies in SolidWorks.
+            \item Designed, tested, and released new features
+            \item Revised and processed a PCB Board for manufacturing
+        \end{itemize}
+    }
+    \colchunk{ % \cvsection{Achievements}
+        % \smallskip
+        % \begin{itemize}
+        %     \item ...
+        %           \smallskip
+        %     \item ...
+        %           \smallskip
+        % \end{itemize}
+
+        % \newpage
+
+
+        \cvsection{SKILLS}
+
+        \cvskill{C, C++}{5}
+        \cvskill{Matlab}{5}
+        \cvskill{Bash Scripting/Linux}{4}
+        \cvskill{Python}{3}
+        \cvskill{Java}{3}
+        \cvskill{Altium Designer, Cadstar}{2}
+
+        \cvsection{Education}
+        \cvevent{BSc Electrical Engineering \\ Minor in Computer Science}{Iowa State University}{ Fall 2017-- Spring 2021}{}
+        \begin{itemize}
+            \item Summa Cum Laudem with Honors
+            \item Communications track
+        \end{itemize}
+        %\divider
+        \cvevent{ MSc and PhD track}{University of Texas at Austin}{ Fall 2021 -- Present}{}
+
+        \cvsection{Papers}
+        \nocite{*}
+        \printbibliography[title={Related Work}]
+
+
+        \cvsection{Interests}
+        \begin{itemize}
+            \item Low Earth Orbit (LEO) Communications
+            \item Digital Communications
+            \item Position, Navigation and Timing
+            \item Estimation
+        \end{itemize} }
+\end{parcolumns}
+
+
+\end{document}
