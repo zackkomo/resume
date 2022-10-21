@@ -11,7 +11,7 @@
 %% version 2003/12/01 or later.
 %%%%%%%%%%%%%%%%
 
-\documentclass[12pt,a4paper,ragged2e]{altacv}
+\documentclass[11pt,a4paper,ragged2e,twocolumn]{altacv}
 
 % Change the page layout if you need to
 \geometry{left=2cm,right=2cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.3cm}
@@ -22,7 +22,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[default]{lato}
-
+\patchcmd{\cvevent}{\ifstrequal{#4}}{\par\ifstrequal{#4}}{}{}
 % Change the colours if you want to
 \definecolor{VividPurple}{HTML}{000000}
 \definecolor{SlateGrey}{HTML}{2E2E2E}
@@ -40,6 +40,8 @@
 %% sample.bib contains your publications
 \addbibresource{references.bib}
 
+
+
 \begin{document}
 \name{Zacharias Komodromos}
 \tagline{}
@@ -56,95 +58,105 @@
 %             %% Make the header extend all the way to the right, if you want.
 
 %         }]
+\twocolumn[
+    \begin{@twocolumnfalse}
+        \begin{center}
 
-\begin{fullwidth}
-    \makecvheader
-\end{fullwidth}
+            \begin{fullwidth}
+                \makecvheader
+            \end{fullwidth}
 
-\begin{parcolumns}[colwidths={1=0.5\textwidth}]{2}
-    \colchunk{ \cvsection{Experience}
-
-        \cvevent{Graduate Research Assistant}{University of Texas at Austin}{Fall 2021 -- Present}{Austin, Texas}
-        \begin{itemize}
-            \item Member of WNCG Radionavigation Laboratory run by Dr. Todd Humphreys.
-            \item Research in game-theory for Pursuit-Evasion scenario
-            \item Research in opportunistic PNT from Starlink Satellites
-            \item Teaching assistant for Aerial Robotics class ASE 479W
-
-        \end{itemize}
-
-        \divider
-
-        \cvevent{Design Engineer Intern}{Garmin}{Summer 2021}{Olathe, Kansas}
-        \begin{itemize}
-            \item Used Cadstar for schematic revision and PCB design
-            \item Designed PCB for new feature testing (capacitive touch features)
-            \item Designed PCB for High-speed (USB 3.2) testing
-
-        \end{itemize}
-
-        \divider
-
-        \cvevent{Teaching Assistant/Tutor}{Iowa State University}{Fall 2019 -- Spring 2021}{Ames, Iowa}
-        \begin{itemize}
-            \item Teaching assistant for EE330 Integrated Circuits during Fall 2020 and Spring 2021,
-                  under Dr. Randall L. Geiger and Dr. Degang Chen.
-            \item Led lab sections, constructed and graded homework and labs
-            \item Tutor for Academic Success Center for EE201 and EE230 Circuit analysis classes
-        \end{itemize}
-
-        \divider
-
-        \cvevent{Electrical Engineering Intern}{Cemen Tech Inc}{Summer 2020}{Indianola, Iowa}
-        \begin{itemize}
-            \item Updated schematics in CAD and assemblies in SolidWorks.
-            \item Designed, tested, and released new features
-            \item Revised and processed a PCB Board for manufacturing
-        \end{itemize}
-    }
-    \colchunk{ % \cvsection{Achievements}
-        % \smallskip
-        % \begin{itemize}
-        %     \item ...
-        %           \smallskip
-        %     \item ...
-        %           \smallskip
-        % \end{itemize}
-
-        % \newpage
+        \end{center}
+    \end{@twocolumnfalse}
+]
 
 
-        \cvsection{SKILLS}
-
-        \cvskill{C, C++}{5}
-        \cvskill{Matlab}{5}
-        \cvskill{Bash Scripting/Linux}{4}
-        \cvskill{Python}{3}
-        \cvskill{Java}{3}
-        \cvskill{Altium Designer, Cadstar}{2}
-
-        \cvsection{Education}
-        \cvevent{BSc Electrical Engineering \\ Minor in Computer Science}{Iowa State University}{ Fall 2017-- Spring 2021}{}
-        \begin{itemize}
-            \item Summa Cum Laudem with Honors
-            \item Communications track
-        \end{itemize}
-        %\divider
-        \cvevent{ MSc and PhD track}{University of Texas at Austin}{ Fall 2021 -- Present}{}
-
-        \cvsection{Papers}
-        \nocite{*}
-        \printbibliography[title={Related Work}]
 
 
-        \cvsection{Interests}
-        \begin{itemize}
-            \item Low Earth Orbit (LEO) Communications
-            \item Digital Communications
-            \item Position, Navigation and Timing
-            \item Estimation
-        \end{itemize} }
-\end{parcolumns}
+\cvsection{Experience}
+\cvevent{Graduate Research Assistant}{University of Texas at Austin}{Fall 2021 -- Present}{Austin, Texas}
+\begin{itemize}
+    \item Member of WNCG Radionavigation Laboratory run by Prof. Todd Humphreys \\
+    \item Research in game-theory for Pursuit-Evasion scenario \\
+    \item Research in opportunistic PNT from Starlink Satellites \\
+    \item Teaching assistant for Aerial Robotics class ASE 479W \\
+\end{itemize}
+
+\divider
+
+\cvevent{Design Engineer Intern}{Garmin}{Summer 2021}{Olathe, Kansas}
+\begin{itemize}
+    \item Used Cadstar for schematic revision and PCB design
+    \item Designed PCB for new feature testing (capacitive touch features)
+    \item Designed PCB for High-speed (USB 3.2) testing
+
+\end{itemize}
+
+\divider
+
+\cvevent{Teaching Assistant/Tutor}{Iowa State University}{Fall 2019 -- Spring 2021}{Ames, Iowa}
+\begin{itemize}
+    \item Teaching assistant for EE330 Integrated Circuits during Fall 2020 and Spring 2021,
+          under Dr. Randall L. Geiger and Dr. Degang Chen.
+    \item Led lab sections, constructed and graded homework and labs
+    \item Tutor for Academic Success Center for EE201 and EE230 Circuit analysis classes
+\end{itemize}
+
+\divider
+
+\cvevent{Electrical Engineering Intern}{Cemen Tech Inc}{Summer 2020}{Indianola, Iowa}
+\begin{itemize}
+    \item Updated schematics in CAD and assemblies in SolidWorks
+    \item Designed, tested, and released new winter-oriented features
+    \item Revised and processed a PCB Board for manufacturing
+\end{itemize}
+
+% \cvsection{Achievements}
+% \smallskip
+% \begin{itemize}
+%     \item ...
+%           \smallskip
+%     \item ...
+%           \smallskip
+% \end{itemize}
+
+% \newpage
+
+
+\cvsection{SKILLS}
+
+\cvskill{C, C++}{5}
+\cvskill{Matlab}{5}
+\cvskill{Bash Scripting/Linux}{4}
+\cvskill{Python}{3}
+\cvskill{Java}{3}
+\cvskill{Altium Designer, Cadstar}{2}
+
+\cvsection{Education}
+
+
+\cvevent{ MSc and PhD track}{University of Texas at Austin}{ Fall 2021 -- Present}{}
+
+\divider
+
+\cvevent{BSc Electrical Engineering \\ Minor in Computer Science}{Iowa State University}{ Fall 2017-- Spring 2021}{}
+\begin{itemize}
+    \item Summa Cum Laudem with Honors
+    \item Communications track
+\end{itemize}
+\cvsection{Papers}
+\nocite{*}
+\printbibliography[title={Related Work}]
+
+
+\cvsection{Interests}
+\begin{itemize}
+    \item Low Earth Orbit (LEO) Communications
+    \item Digital Communications
+    \item Position, Navigation and Timing
+    \item Estimation
+\end{itemize}
+
 
 
 \end{document}

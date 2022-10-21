@@ -20,26 +20,32 @@
 \refsection{0}
   \datalist[entry]{ydnt/global//global/global}
     \entry{starlinkStructure}{article}{}
-      \name{author}{1}{}{%
+      \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=c4f0e81ffba7c630e7ba7cf63332946a}{%
-           family={T.\bibnamedelimi E.\bibnamedelimi Humphreys},
-           familyi={T\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim H\bibinitperiod},
+           family={T.E.\bibnamedelimi Humphreys},
+           familyi={T\bibinitperiod\bibinitdelim H\bibinitperiod},
            given={Z.\bibnamedelimi M.\bibnamedelimi Komodromos},
            giveni={Z\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim K\bibinitperiod},
            givenun=0,
            suffix={P.\bibnamedelimi A.\bibnamedelimi Iannucci},
            suffixi={P\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim I\bibinitperiod},
            suffixun=0}}%
+        {{un=0,uniquepart=base,hash=05628a424d659176fc81c467b5d02342}{%
+           family={Graff},
+           familyi={G\bibinitperiod},
+           given={A.\bibnamedelimi M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
       }
       \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{c4f0e81ffba7c630e7ba7cf63332946a}
-      \strng{fullhash}{c4f0e81ffba7c630e7ba7cf63332946a}
-      \strng{bibnamehash}{c4f0e81ffba7c630e7ba7cf63332946a}
-      \strng{authorbibnamehash}{c4f0e81ffba7c630e7ba7cf63332946a}
-      \strng{authornamehash}{c4f0e81ffba7c630e7ba7cf63332946a}
-      \strng{authorfullhash}{c4f0e81ffba7c630e7ba7cf63332946a}
+      \strng{namehash}{ce39ef1aa76a6e37bc89b806412801e7}
+      \strng{fullhash}{ce39ef1aa76a6e37bc89b806412801e7}
+      \strng{bibnamehash}{ce39ef1aa76a6e37bc89b806412801e7}
+      \strng{authorbibnamehash}{ce39ef1aa76a6e37bc89b806412801e7}
+      \strng{authornamehash}{ce39ef1aa76a6e37bc89b806412801e7}
+      \strng{authorfullhash}{ce39ef1aa76a6e37bc89b806412801e7}
       \field{sortinit}{U}
       \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
       \field{extradatescope}{labelyear}
@@ -49,6 +55,39 @@
       \field{journaltitle}{IEEE Transactions on Aerospace and Electronic Systems}
       \field{title}{Signal Structure of the Starlink Ku-Band Downlink}
       \field{year}{Under Review}
+      \true{nocite}
+    \endentry
+    \entry{SandiaWhitePaper}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=49a8f9831c1e545bc05794d54fda118c}{%
+           family={Z.\bibnamedelimi M.\bibnamedelimi Komodromos},
+           familyi={Z\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={T.E.\bibnamedelimi Humphreys},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0,
+           suffix={N.G.\bibnamedelimi Montalbano},
+           suffixi={N\bibinitperiod\bibinitdelim M\bibinitperiod},
+           suffixun=0}}%
+      }
+      \list{institution}{1}{%
+        {UT Austin, Radionavigation Laboratory}%
+      }
+      \strng{namehash}{49a8f9831c1e545bc05794d54fda118c}
+      \strng{fullhash}{49a8f9831c1e545bc05794d54fda118c}
+      \strng{bibnamehash}{49a8f9831c1e545bc05794d54fda118c}
+      \strng{authorbibnamehash}{49a8f9831c1e545bc05794d54fda118c}
+      \strng{authornamehash}{49a8f9831c1e545bc05794d54fda118c}
+      \strng{authorfullhash}{49a8f9831c1e545bc05794d54fda118c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://radionavlab.ae.utexas.edu/wp-content/uploads/2022/10/QNO-algo-white-paper.pdf/}}
+      \field{title}{{Quasi-Nash Optimal Algorithm for Reach and Avoid Differential Game}}
+      \field{type}{techreport}
+      \field{year}{2022}
       \true{nocite}
     \endentry
   \enddatalist

@@ -28,11 +28,13 @@ INPUT C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex\latex\extsizes\extarti
 INPUT C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex\latex\extsizes\extarticle.cls
 INPUT C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex\latex\extsizes\extarticle.cls
 INPUT C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex\latex\extsizes\extarticle.cls
-INPUT C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
-INPUT C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
-INPUT C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
-INPUT C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
-INPUT C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex\latex\extsizes\extarticle.cls
+INPUT C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex\latex\extsizes\extarticle.cls
+INPUT C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex\latex\base\size11.clo
+INPUT C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex\latex\base\size11.clo
+INPUT C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex\latex\base\size11.clo
+INPUT C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex\latex\base\size11.clo
+INPUT C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
 INPUT C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex\latex\base\exscale.sty
 INPUT C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex\latex\base\exscale.sty
 INPUT C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex\latex\base\exscale.sty
@@ -803,7 +805,7 @@ INPUT C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
 INPUT C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
 INPUT C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
 INPUT C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
-INPUT C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1200.tfm
+INPUT C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1095.tfm
 INPUT C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex\latex\lato\lato.sty
 INPUT C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex\latex\lato\lato.sty
 INPUT C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex\latex\lato\lato.sty

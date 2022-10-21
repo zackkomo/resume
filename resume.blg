@@ -1,17 +1,17 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'resume.blg'
-[80] biber-MSWIN64:340> INFO - === 
-[113] Biber.pm:415> INFO - Reading 'resume.bcf'
-[191] Biber.pm:949> INFO - Using all citekeys in bib section 0
-[200] Biber.pm:4340> INFO - Processing section 0
-[208] Biber.pm:4531> INFO - Looking for bibtex format file 'references.bib' for section 0
-[255] bibtex.pm:1689> INFO - LaTeX decoding ...
-[260] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
-[276] Utils.pm:395> WARN - legacy year field 'Under Review' in entry 'starlinkStructure' is not an integer - this will probably not sort properly.
-[284] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[284] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[284] Biber.pm:4168> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
-[284] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[285] bbl.pm:654> INFO - Writing 'resume.bbl' with encoding 'UTF-8'
-[286] bbl.pm:757> INFO - Output to resume.bbl
-[286] Biber.pm:128> INFO - WARNINGS: 1
+[85] biber-MSWIN64:340> INFO - === 
+[116] Biber.pm:415> INFO - Reading 'resume.bcf'
+[194] Biber.pm:949> INFO - Using all citekeys in bib section 0
+[204] Biber.pm:4340> INFO - Processing section 0
+[212] Biber.pm:4531> INFO - Looking for bibtex format file 'references.bib' for section 0
+[269] bibtex.pm:1689> INFO - LaTeX decoding ...
+[273] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
+[292] Utils.pm:395> WARN - legacy year field 'Under Review' in entry 'starlinkStructure' is not an integer - this will probably not sort properly.
+[301] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[302] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[302] Biber.pm:4168> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[302] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[303] bbl.pm:654> INFO - Writing 'resume.bbl' with encoding 'UTF-8'
+[304] bbl.pm:757> INFO - Output to resume.bbl
+[304] Biber.pm:128> INFO - WARNINGS: 1

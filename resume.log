@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.6)  15 OCT 2022 14:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.6)  20 OCT 2022 22:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -10,8 +10,8 @@ L3 programming layer <2022-01-21> (altacv.cls
 Document Class: altacv 2018/12/01 AltaCV v1.1.5, yet another alternative class for a résumé/curriculum vitae.
 (C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex/latex/extsizes\extarticle.cls
 Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
-(C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
-File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+(C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
+File: size11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 ) (C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex/latex/base\exscale.sty
 Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
 LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
@@ -604,6 +604,10 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 )) (C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \c@tracingmulticols=\count419
+
+
+Package multicol Warning: May not work with the twocolumn option on input line 142.
+
 \mult@box=\box75
 \multicol@leftmargin=\dimen266
 \c@unbalance=\count420
@@ -1133,12 +1137,12 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )))
 \@quotelevel=\count432
 \@quotereset=\count433
-LaTeX Font Info:    Trying to load font information for T1+lato-TLF on input line 43.
+LaTeX Font Info:    Trying to load font information for T1+lato-TLF on input line 45.
  (C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex/latex/lato\t1lato-tlf.fd
 File: T1lato-TLF.fd 2019/06/24 Font definitions for T1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 43.
+(Font)              scaled to size 10.95pt on input line 45.
  (C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count434
@@ -1146,20 +1150,20 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 ) (resume.aux)
 \openout1 = `resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1180,16 +1184,16 @@ LaTeX Font Info:    ... okay on input line 43.
 * \topmargin=-73.70406pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=11.0pt
 * \footskip=30.0pt
 * \marginparwidth=193.47882pt
 * \marginparsep=34.14322pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
-* \@twocolumnfalse
+* \@twocolumntrue
 * \@twosidefalse
 * \@mparswitchfalse
 * \@reversemarginfalse
@@ -1240,73 +1244,68 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'resume.bbl' found.
  (resume.bbl)
-Package biblatex Info: Reference section=0 on input line 43.
-Package biblatex Info: Reference segment=0 on input line 43.
+Package biblatex Info: Reference section=0 on input line 45.
+Package biblatex Info: Reference segment=0 on input line 45.
 \c@mv@tabular=\count441
 \c@mv@boldtabular=\count442
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 61.
+(Font)              scaled to size 24.88pt on input line 71.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 61.
+(Font)              scaled to size 24.88pt on input line 71.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 61.
+(Font)              scaled to size 12.0pt on input line 71.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 61.
+(Font)              scaled to size 12.0pt on input line 71.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 61.
+(Font)              scaled to size 9.0pt on input line 71.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 61.
-LaTeX Font Info:    Trying to load font information for U+fontawesomeone on input line 61.
+(Font)              scaled to size 9.0pt on input line 71.
+LaTeX Font Info:    Trying to load font information for U+fontawesomeone on input line 71.
  (C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome\ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
 )
-LaTeX Font Info:    Trying to load font information for U+fontawesometwo on input line 61.
+LaTeX Font Info:    Trying to load font information for U+fontawesometwo on input line 71.
  (C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome\ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
-\pc@column@1=\box122
-\pc@column@width@1=\dimen277
-\pc@column@2=\box123
-\pc@column@width@2=\dimen278
-Package parcolumns Info: Width of column 1 set to 241.84843pt on input line 64.
-Package parcolumns Info: Width of column 2 calculated as 217.84843pt on input line 64.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 65.
+(Font)              scaled to size 17.28pt on input line 76.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 20.74pt on input line 65.
+(Font)              scaled to size 17.28pt on input line 76.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 67.
+(Font)              scaled to size 10.95pt on input line 77.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 67.
-LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input line 69.
+(Font)              scaled to size 10.0pt on input line 77.
+LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input line 79.
  (C:\Users\zackkomo\AppData\Local\Programs\MiKTeX\tex/latex/lato\ts1lato-tlf.fd
 File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 69.
+(Font)              scaled to size 10.0pt on input line 79.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 137.
+(Font)              scaled to size 14.4pt on input line 149.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 137.
+(Font)              scaled to size 14.4pt on input line 149.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 137.
- [1
+(Font)              scaled to size 10.95pt on input line 149.
+ [1{C:/Users/zackkomo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
-{C:/Users/zackkomo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (resume.aux)
+
+] (resume.aux)
 Package logreq Info: Writing requests to 'resume.run.xml'.
 \openout1 = `resume.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27192 strings out of 478593
- 574362 string characters out of 2843189
- 1269688 words of memory out of 3000000
- 44937 multiletter control sequences out of 15000+600000
- 782337 words of font info for 59 fonts, out of 8000000 for 9000
+ 27194 strings out of 478593
+ 574468 string characters out of 2843189
+ 1269776 words of memory out of 3000000
+ 44940 multiletter control sequences out of 15000+600000
+ 782344 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,5n,120p,1170b,1309s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 125i,5n,120p,1170b,1119s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/zackkomo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lato/a_cl4kdn.enc}{C:/Users/zackkomo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lato/a_rt66h3.enc}{C:/Users/zackkomo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{C:/Users/zackkomo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesomeone.enc}<C:/Users/zackkomo/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Users/zackkomo/AppData/Local/Programs/MiKTeX/fonts/type1/typoland/lato/Lato-Bold.pfb><C:/Users/zackkomo/AppData/Local/Programs/MiKTeX/fonts/type1/typoland/lato/Lato-Italic.pfb><C:/Users/zackkomo/AppData/Local/Programs/MiKTeX/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on resume.pdf (1 page, 99869 bytes).
+Output written on resume.pdf (1 page, 103695 bytes).
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
