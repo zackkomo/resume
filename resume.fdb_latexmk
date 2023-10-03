@@ -1,13 +1,12 @@
 # Fdb version 3
-["biber resume"] 1666322520 "resume.bcf" "resume.bbl" "resume" 1666322522
-  "./references.bib" 1666322044 703 2d271e9e7ecc85a5980ab3787f532402 ""
-  "./resume.bcf" 1666322507 106909 482fbe88f36f3de0ea4331c283b584d3 ""
-  "resume.bcf" 1666322507 106909 482fbe88f36f3de0ea4331c283b584d3 "pdflatex"
+["biber resume"] 1696344915 "resume.bcf" "resume.bbl" "resume" 1696344920
+  "./references.bib" 1696344250 951 7e787f543fa6b36651e0e517ae993457 ""
+  "./resume.bcf" 1696344919 106909 482fbe88f36f3de0ea4331c283b584d3 ""
   (generated)
   "resume.bbl"
   "resume.blg"
-["pdflatex"] 1666322505 "d:/Documents/5_Personal/Resumes/resume/resume.tex" "resume.pdf" "resume" 1666322522
-  "C:/Users/zackkomo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1666217253 248198 985422c34d08c6ab43347c2c45d302b1 ""
+["pdflatex"] 1696344918 "d:/Documents/5_Personal/Resumes/resume/resume.tex" "resume.pdf" "resume" 1696344920
+  "C:/Users/zackkomo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1695425386 286750 3efcaabff289c6e6d0b012b2d9e0da72 ""
   "C:/Users/zackkomo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1644170875 10244884 ab01b6296abd74cc088ffd6aa5b06bad ""
   "C:/Users/zackkomo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1463869852 1687 f004baecce60175c6453d0e3f808cf20 ""
   "C:/Users/zackkomo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463869852 2679 32dd8ae231bf4a0752b98f62dc097183 ""
@@ -182,11 +181,11 @@
   "C:/Users/zackkomo/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1636288472 56029 3f7889dab51d620aa43177c391b7b190 ""
   "C:/Users/zackkomo/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1623005690 4902 efb3d66683a2da2a232f71e3a571a899 ""
   "altacv.cls" 1665851481 11395 678cec1f58ab5d10489ea1a2911a28c2 ""
-  "d:/Documents/5_Personal/Resumes/resume/resume.tex" 1666322520 4665 cd8c43b451cff6b2703081283919a405 ""
-  "resume.aux" 1666322507 752 9a481400debaffaf06e9e9748136130f "pdflatex"
-  "resume.bbl" 1666322521 4012 b23929ad08dc72f3fc729368fffd2a3c "biber resume"
-  "resume.run.xml" 1666322507 2325 336a552733fb8d1b26ab40b222dcc5c3 "pdflatex"
-  "resume.tex" 1666322520 4665 cd8c43b451cff6b2703081283919a405 ""
+  "d:/Documents/5_Personal/Resumes/resume/resume.tex" 1696344915 4839 d2d34654b5f4433bc3350f251d27a8a9 ""
+  "resume.aux" 1696344919 858 8ff845b11616468565541a05001b9fa7 "pdflatex"
+  "resume.bbl" 1696344917 5649 9e3a9d20d5736ec535840894aecc8f58 "biber resume"
+  "resume.run.xml" 1696344919 2325 336a552733fb8d1b26ab40b222dcc5c3 "pdflatex"
+  "resume.tex" 1696344915 4839 d2d34654b5f4433bc3350f251d27a8a9 ""
   (generated)
   "resume.aux"
   "resume.bcf"

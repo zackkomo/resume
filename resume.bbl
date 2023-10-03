@@ -57,6 +57,43 @@
       \field{year}{Under Review}
       \true{nocite}
     \endentry
+    \entry{komodromos2023IONsimulator}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=cc2c4f4189bd63ff93320029247406ac}{%
+           family={Komodromos},
+           familyi={K\bibinitperiod},
+           given={Zacharias\bibnamedelima M},
+           giveni={Z\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=29f5b357be4ec4d1ce287d3d8a91b84f}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Wenkai},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=89ff3046c79102efc8b41674e610015d}{%
+           family={Humphreys},
+           familyi={H\bibinitperiod},
+           given={Todd\bibnamedelima E},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8788b9a0d1f44fe67cd49be769d63583}
+      \strng{fullhash}{8788b9a0d1f44fe67cd49be769d63583}
+      \strng{bibnamehash}{8788b9a0d1f44fe67cd49be769d63583}
+      \strng{authorbibnamehash}{8788b9a0d1f44fe67cd49be769d63583}
+      \strng{authornamehash}{8788b9a0d1f44fe67cd49be769d63583}
+      \strng{authorfullhash}{8788b9a0d1f44fe67cd49be769d63583}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Signal Simulator for {Starlink} {Ku-Band} Downlink}
+      \field{year}{2023}
+      \true{nocite}
+    \endentry
     \entry{SandiaWhitePaper}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=49a8f9831c1e545bc05794d54fda118c}{%
