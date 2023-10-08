@@ -1,18 +1,15 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'resume.blg'
-[85] biber-MSWIN64:340> INFO - === 
-[123] Biber.pm:415> INFO - Reading 'resume.bcf'
-[206] Biber.pm:949> INFO - Using all citekeys in bib section 0
-[215] Biber.pm:4340> INFO - Processing section 0
-[224] Biber.pm:4531> INFO - Looking for bibtex format file 'references.bib' for section 0
-[279] bibtex.pm:1689> INFO - LaTeX decoding ...
-[285] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
-[303] Utils.pm:395> WARN - legacy year field 'Under Review' in entry 'starlinkStructure' is not an integer - this will probably not sort properly.
-[312] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\zackkomo\AppData\Local\Temp\biber_tmp_oKCL\33e59b5ca9ec342068223d604c3f8d55_18192.utf8, line 4, warning: undefined macro "iongnssplus"
-[320] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[320] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[320] Biber.pm:4168> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
-[320] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[323] bbl.pm:654> INFO - Writing 'resume.bbl' with encoding 'UTF-8'
-[324] bbl.pm:757> INFO - Output to resume.bbl
-[324] Biber.pm:128> INFO - WARNINGS: 2
+[86] biber-MSWIN64:340> INFO - === 
+[120] Biber.pm:415> INFO - Reading 'resume.bcf'
+[203] Biber.pm:949> INFO - Using all citekeys in bib section 0
+[213] Biber.pm:4340> INFO - Processing section 0
+[222] Biber.pm:4531> INFO - Looking for bibtex format file 'references.bib' for section 0
+[270] bibtex.pm:1689> INFO - LaTeX decoding ...
+[279] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
+[317] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[317] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[317] Biber.pm:4168> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[317] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[319] bbl.pm:654> INFO - Writing 'resume.bbl' with encoding 'UTF-8'
+[321] bbl.pm:757> INFO - Output to resume.bbl
